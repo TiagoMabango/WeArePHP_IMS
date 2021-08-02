@@ -1,0 +1,23 @@
+Arquivo pra filtro, métodos prontos para filtragens contra atagues XSS e sql injection!
+
+O AF tem 5 métodos, que são: filterSPECIALCHARS,filterEmail,filterStripTags,filterUrl e filterIp. Existem muitos outros tipos de filtros mas ainda estou trabalhando com esses.
+
+filterSPECIALCHARS-> filtra todos os tipos de caracteres malignos nos campos.
+filterEmail->verifica se é um email válido.
+filterStripTags->Limpa tags nos campo.
+filterIp->verifica se é um Ip válido.
+filterUrl->verifica se é uma url válida.
+
+
+O filterSPECIALCHARS  retorna um array, sendo assim tu podes filtrar muitos campos ao mesmo tempo, já os demais métodos tu deves filtra um por um...
+
+Conhecimentos necessários:
+    1-Saber sobre PDO, não necessário tudo mas o básico.Pelo menos Saber instanciar uma classe.
+    2-Saber sobre autoload(recarregamento automaticamento de classes).
+    3-Saber sobre namespace.
+
+Sobre utilizar dos métodos o Arquivo Index tem em detralhes...
+
+Espero que gostem obrigado!
+
+
