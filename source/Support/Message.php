@@ -6,7 +6,7 @@ namespace Source\Support;
 
 
 /**
- * MIXTAPE WE ARE PHP
+ * MIXTAP WE ARE PHP
  *
  * @author Tigao Mabango 
  * @package Source\Support
